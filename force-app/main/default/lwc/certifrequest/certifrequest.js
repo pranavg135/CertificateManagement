@@ -40,7 +40,7 @@ export default class CertireqOperations extends LightningElement {
 
     handleSuccess(event) {
         this.dispatchEvent(new ShowToastEvent({
-            title: 'Voila',
+            title: 'Congrats',
             message: 'Request Created !',
             variant: 'success'
         }));
